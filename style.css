@@ -2,3 +2,36 @@
     margin: 0;
     padding: 0;
 }
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.sidebar {
+    border: green 1px solid;
+    background-color: rgb(131, 233, 131);
+    grid-row: span 3;
+}
+
+header {
+    border: blue 1px solid;
+    background-color: rgb(130, 130, 213);
+    grid-column: span 2;
+}
+
+main {
+    border: red 1px solid;
+    background-color: rgb(224, 123, 123);
+}
+
+aside {
+    border: purple 1px solid;
+    background-color: rgb(240, 149, 240);
+}
