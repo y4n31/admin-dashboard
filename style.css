@@ -3,8 +3,24 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: mainFont;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: mainFont;
+    src: url(./Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
 html, body {
     height: 100%;
+    font-family: mainFont;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .container {
@@ -15,6 +31,8 @@ html, body {
 }
 
 .sidebar {
+    display: grid;
+    grid-template-rows: minmax(80px, 1fr) minmax(500px, 8fr);
     border: green 1px solid;
     background-color: rgb(131, 233, 131);
     grid-row: span 3;
@@ -34,4 +52,26 @@ main {
 aside {
     border: purple 1px solid;
     background-color: rgb(240, 149, 240);
+}
+
+.logo {
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: grid;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+nav :nth-child(1) {
+    display: grid;
+    grid-template-rows: repeat(6, 50px);
+}
+
+nav :nth-child(2) {
+    display: grid;
+    grid-template-rows: repeat(3, 50px);
 }
