@@ -63,7 +63,8 @@ aside {
 }
 
 .logo-pic {
-    color: white;
+    align-content: center;
+    justify-content: center;
 }
 
 nav {
@@ -71,16 +72,24 @@ nav {
     font-size: 1.2rem;
     font-weight: bold;
     justify-content: center;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1.3fr;
+    gap: 20px
 }
 
-nav :nth-child(1) {
+.top-points {
     display: grid;
     grid-template-rows: repeat(6, 50px);
 }
 
-nav :nth-child(2) {
+.bottom-points {
     display: grid;
     grid-template-rows: repeat(3, 50px);
 }
 
+ul.top-points li {
+    list-style-image: url(./icons/home.svg);
+}
+
+ul.bottom-points li {
+    list-style-image: url(./icons/home.svg);
+}
