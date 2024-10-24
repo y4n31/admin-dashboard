@@ -55,16 +55,17 @@ aside {
     background-color: rgb(240, 149, 240);
 }
 
-.logo {
+.logo-pic {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    justify-self: center;
-    align-self: center;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    justify-self: center; 
+    align-self: end;   
+    width: 40px;
 }
 
-.logo-pic {
-    align-content: center;
-    justify-content: center;
+.logo-pic img {
+    align-self: end;
 }
 
 nav {
@@ -72,27 +73,37 @@ nav {
     font-size: 1.2rem;
     font-weight: bold;
     justify-content: center;
-    grid-template-rows: 1fr 1.3fr;
-    grid-row-gap: 20px;
-    grid-column-gap: 10px;
-    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1.5fr 1fr 1.3fr;
+    grid-row-gap: 40px;
+    grid-template-columns: 2fr 4fr;
+}
+
+nav h1 {
+    grid-column: 2/2;
+    grid-row: 1/1;
+    justify-self: start;
+    align-self: flex-end;
 }
 
 .top-points {
     display: grid;
     grid-template-rows: repeat(6, 50px);
     grid-column: 2 / 2;
+    grid-row: 2/2;
 }
 
 .bottom-points {
     display: grid;
     grid-template-rows: repeat(3, 50px);
     grid-column: 2 / 2;
+    grid-row: 3/3;
 }
 
 .top-icons {
     display: grid;
     grid-template-rows: repeat(6, 50px);
+    grid-row: 2/2;
+    grid-column: 1/1;
 }
 
 li img {
@@ -100,11 +111,11 @@ li img {
 }
 
 .top-icons li, .bottom-icons li {
-    justify-self: end;
+    justify-self: center;
 }
 
 .bottom-icons {
     display: grid;
-    grid-row: 2 / 2;
+    grid-row: 3 / 3;
     grid-template-rows: repeat(3, 50px);
 }
