@@ -99,6 +99,12 @@ li img {
     width: 25px;
 }
 
-.top-icons li {
+.top-icons li, .bottom-icons li {
     justify-self: end;
+}
+
+.bottom-icons {
+    display: grid;
+    grid-row: 2 / 2;
+    grid-template-rows: repeat(3, 50px);
 }
