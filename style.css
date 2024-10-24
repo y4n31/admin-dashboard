@@ -73,23 +73,28 @@ nav {
     font-weight: bold;
     justify-content: center;
     grid-template-rows: 1fr 1.3fr;
-    gap: 20px
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 4fr;
 }
 
 .top-points {
     display: grid;
     grid-template-rows: repeat(6, 50px);
+    grid-column: 2 / 2;
 }
 
 .bottom-points {
     display: grid;
     grid-template-rows: repeat(3, 50px);
+    grid-column: 2 / 2;
 }
 
-ul.top-points li {
-    list-style-image: url(./icons/home.svg);
+.home img {
+    width: 25px;
 }
 
-ul.bottom-points li {
-    list-style-image: url(./icons/home.svg);
+.home {
+    justify-self: end;
+    align-self: end;
 }
