@@ -128,6 +128,7 @@ li img {
     display: grid;
     justify-content: start;
     align-content: center;
+    grid-template-columns: minmax(40px, 0.5fr) 6fr;
     grid-column: 1 / 1;
     grid-row: 1 / 1;
 }
@@ -138,6 +139,12 @@ li img {
     border: 0px;
     width: max(200px, 30vw);
     height: 30px;
+}
+
+.search-bar img {
+    width: 30px;
+    justify-self: center;
+    align-self: center;
 }
 
 .user-greet {
