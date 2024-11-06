@@ -124,3 +124,22 @@ li img {
     grid-template-rows: repeat(3, 50px);
 }
 
+.search-bar {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.user-greet {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+.profile {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+.action-buttons {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
