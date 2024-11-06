@@ -134,7 +134,7 @@ li img {
     grid-row: 2 / 2;
 }
 
-.profile {
+.profile-name {
     grid-column: 2 / 2;
     grid-row: 1 / 1;
 }
@@ -143,3 +143,4 @@ li img {
     grid-column: 2 / 2;
     grid-row: 2 / 2;
 }
+
