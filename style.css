@@ -131,6 +131,7 @@ li img {
     grid-template-columns: minmax(40px, 0.5fr) 6fr;
     grid-column: 1 / 1;
     grid-row: 1 / 1;
+    align-content: end;
 }
 
 .search-bar input {
@@ -148,8 +149,19 @@ li img {
 }
 
 .user-greet {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
     grid-column: 1 / 1;
     grid-row: 2 / 2;
+    justify-content: center;
+    align-content: center;
+}
+
+.profile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    justify-self: center;
 }
 
 .profile-name {
