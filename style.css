@@ -132,6 +132,7 @@ li img {
     grid-column: 1 / 1;
     grid-row: 1 / 1;
     align-content: end;
+    gap: 20px;
 }
 
 .search-bar input {
@@ -144,24 +145,37 @@ li img {
 
 .search-bar img {
     width: 30px;
-    justify-self: center;
+    justify-self: end;
     align-self: center;
 }
 
 .user-greet {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: minmax(110px, 0.7fr) 6fr;
     grid-column: 1 / 1;
     grid-row: 2 / 2;
     justify-content: center;
     align-content: center;
+    font-weight: bold;
+    gap: 20px;
+}
+
+#username-greet {
+    font-size: 23px;
 }
 
 .profile-pic {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    justify-self: center;
+    justify-self: end;
+}
+
+.greet-text {
+    display: grid;
+    align-content: center;
+    justify-content: start;
+    gap: 10px;
 }
 
 .profile-name {
