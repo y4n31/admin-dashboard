@@ -45,7 +45,7 @@ header {
     background-color: white;
     grid-column: span 2;
     box-shadow: 0px 10px 4px -3px rgba(0,0,0,0.75);  
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr 0.1fr;
     grid-template-rows: 1fr 2fr;
     column-gap: 50px;
 }
@@ -185,11 +185,33 @@ li img {
     grid-row: 1 / 1;
 }
 
+.profile-name-small {
+    justify-self: end;
+    font-size: 18px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: end;
+    gap: 30px;
+}
+
+.profile-name-small p {
+    align-self: center;
+}
+
+.profile-name-small img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-self: end;
+    justify-self: end;
+}
+
 .action-buttons {
     display: grid;
     grid-template-columns: minmax(20px, 0.3fr) minmax(20px, 0.3fr) minmax(20px, 0.3fr);
     align-content: center;
-    justify-content: center;
+    justify-content: end;
     grid-column: 2 / 2;
     grid-row: 2 / 2;
 }
@@ -202,5 +224,6 @@ button {
     border: 0px;
     color: white;
     font-size: 15px;
+    justify-self: end;
 }
 
