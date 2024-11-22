@@ -187,7 +187,7 @@ li img {
 
 .profile-name-small {
     justify-self: end;
-    font-size: 18px;
+    font-size: 1.2vw;
     font-weight: bold;
     display: grid;
     grid-template-columns: 1fr 0.5fr 1fr;
