@@ -190,7 +190,7 @@ li img {
     font-size: 18px;
     font-weight: bold;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-content: end;
     gap: 30px;
 }
@@ -199,7 +199,7 @@ li img {
     align-self: center;
 }
 
-.profile-name-small img {
+.profile-pic-small {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -215,7 +215,7 @@ li img {
     grid-column: 2 / 2;
     grid-row: 2 / 2;
 }
-
+ 
 button {
     width: 100px;
     padding: 12px 20px;
