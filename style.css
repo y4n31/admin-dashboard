@@ -51,8 +51,31 @@ header {
 }
 
 main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
     border: red 1px solid;
     background-color: rgb(224, 123, 123);
+}
+
+.first-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: pink;
+}
+
+.second-column {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: purple;
+}
+
+.card {
+    background-color: rgb(61, 52, 52);
+    border-radius: 15px;
 }
 
 aside {
