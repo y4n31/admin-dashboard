@@ -85,11 +85,18 @@ main {
 }
 
 .card {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
     width: 500px;
     justify-self: center;
     background-color: white;
     border-radius: 15px;
     box-shadow: -10px 0px 0px 0px orange;
+}
+
+.card span {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 @media all and (max-width: 1500px) {
