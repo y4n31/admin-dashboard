@@ -95,8 +95,16 @@ main {
 }
 
 .card span {
+    display: inline-block;
+    margin-bottom: 5px;
     font-size: 18px;
     font-weight: bold;
+    color: black;
+}
+
+.card p {
+    padding: 20px 100px 10px 20px;
+    color: grey;
 }
 
 @media all and (max-width: 1500px) {
