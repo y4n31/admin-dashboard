@@ -102,6 +102,25 @@ main {
     color: black;
 }
 
+.card-icons {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+
+}
+
+.card-icons img {
+    width: 30px;
+    justify-self: end;
+}
+
+#eye {
+    justify-self: center;
+}
+
+#share {
+    justify-self: start;
+}
+
 .card p {
     padding: 20px 100px 10px 20px;
     color: grey;
