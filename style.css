@@ -142,7 +142,28 @@ aside {
     background-color: rgb(240, 149, 240);
 }
 
+.announce {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    gap: 15px;
+}
 
+.post {
+    font-size: 15px;
+    padding: 20px;
+    box-shadow: 0px 5px 0px -2px rgba(0,0,0,0.40);
+}
+
+.post span {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
 
 .logo-pic {
     display: grid;
@@ -224,7 +245,6 @@ li img {
     border-radius: 15px;
     background-color: rgb(218, 216, 216);
     border: 0px;
-    /* width: max(200px, 30vw); */
     justify-self: stretch;
     height: 30px;
 }
