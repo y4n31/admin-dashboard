@@ -137,9 +137,12 @@ main {
 }
 
 aside {
-    border: purple 1px solid;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 3fr;
     background-color: rgb(240, 149, 240);
 }
+
+
 
 .logo-pic {
     display: grid;
