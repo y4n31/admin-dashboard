@@ -139,8 +139,15 @@ main {
 
 aside {
     display: grid;
-    grid-template-rows: 1fr 3fr 1fr 3fr;
-    background-color: rgb(240, 149, 240);
+    grid-template-rows: 0.75fr 3fr 1fr 3fr;
+    background-color: rgb(218, 216, 216);
+}
+
+.announce-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    align-self: center;
+    justify-self: start;
 }
 
 .announce {
