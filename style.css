@@ -141,9 +141,10 @@ aside {
     display: grid;
     grid-template-rows: 0.75fr 3fr 1fr 3fr;
     background-color: rgb(218, 216, 216);
+    padding-right: 40px;
 }
 
-.announce-title {
+.announce-title, .trend-title {
     font-size: 1.3rem;
     font-weight: bold;
     align-self: center;
