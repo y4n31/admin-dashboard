@@ -182,6 +182,34 @@ aside {
 .trend {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 0.9fr 2fr;
+}
+
+.username {
+    justify-self: start;
+    align-self: center;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.status {
+    color: grey;
+}
+
+.circle-pic {
+    width: 55px;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
 }
 
 .logo-pic {
