@@ -70,7 +70,7 @@ main {
 
 .first-column {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
     gap: 30px;
     grid-column: 1/1;
     grid-row: 2/2;
@@ -79,7 +79,7 @@ main {
 .second-column {
     display: grid;
     gap: 30px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
     grid-column: 2/2;
     grid-row: 2/2;
 }
@@ -90,6 +90,7 @@ main {
     width: 500px;
     max-height: 250px;
     justify-self: center;
+    align-self: stretch;
     background-color: white;
     border-radius: 15px;
     box-shadow: -10px 0px 0px 0px orange;
@@ -176,6 +177,11 @@ aside {
     font-size: 16px;
     font-weight: bold;
     color: black;
+}
+
+.trend {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .logo-pic {
