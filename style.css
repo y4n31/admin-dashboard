@@ -140,7 +140,7 @@ main {
 
 aside {
     display: grid;
-    grid-template-rows: 55px 3fr 0.50fr 2fr;
+    grid-template-rows: 55px 2.5fr 0.50fr 1.8fr;
     background-color: rgb(218, 216, 216);
     padding-right: 40px;
     padding-top: 30px;
