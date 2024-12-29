@@ -54,6 +54,7 @@ main {
     grid-template-rows: 55px 2fr;
     gap: 30px;
     padding: 30px;
+    padding-top: 0px;
     background-color: rgb(218, 216, 216);
 }
 
@@ -143,7 +144,6 @@ aside {
     grid-template-rows: 55px 2.5fr 0.50fr 1.8fr;
     background-color: rgb(218, 216, 216);
     padding-right: 40px;
-    padding-top: 30px;
 }
 
 .announce-title, .trend-title {
