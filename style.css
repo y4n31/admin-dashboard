@@ -51,18 +51,21 @@ header {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 55px 2fr;
+    grid-template-rows: 55px 3fr 0.25fr;
     gap: 30px;
     padding: 30px;
     padding-top: 0px;
     background-color: rgb(218, 216, 216);
 }
 
-/* .more-button {
+.more-button {
+    display: grid;
     width: 100%;
     grid-row: 3/3;
+    grid-column: 1/3;
     justify-self: center;
-} */
+    justify-content: center;
+}
 
 .title {
     font-size: 1.3rem;
