@@ -58,6 +58,12 @@ main {
     background-color: rgb(218, 216, 216);
 }
 
+/* .more-button {
+    width: 100%;
+    grid-row: 3/3;
+    justify-self: center;
+} */
+
 .title {
     font-size: 1.3rem;
     font-weight: bold;
